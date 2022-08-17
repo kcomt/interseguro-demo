@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "289fcf67-7359-49dd-8e01-babf0d760537",
+		"name": "interseguro-demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11670250"
+	},
+	"item": [
+		{
+			"name": "Rotate 90",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"matrix\": [[1,2],[3,4]]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/rotate90",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"rotate90"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rotate 180",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"matrix\": [[1,2],[3,4]]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/rotate180",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"rotate180"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rotate 270",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"matrix\": [[1,2],[3,4]]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/rotate270",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"rotate270"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transpose",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"matrix\": [[1,2],[3,4]]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/transpose",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"transpose"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

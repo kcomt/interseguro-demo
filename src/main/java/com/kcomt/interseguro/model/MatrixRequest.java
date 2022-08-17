@@ -3,12 +3,11 @@ package com.kcomt.interseguro.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Matrix {
+public class MatrixRequest {
 	
 	private List<List<Integer>> matrix = new ArrayList<List<Integer>>();
 	
-	public Matrix(List<List<Integer>> matrix) {
-		this.matrix = matrix;
+	public MatrixRequest() {
 	}
 
 	public List<List<Integer>> getMatrix() {

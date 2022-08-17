@@ -1,7 +1,8 @@
 package com.kcomt.interseguro.serviceimpl;
 
-import java.util.List;
+import com.kcomt.interseguro.model.MatrixRequest;
+import com.kcomt.interseguro.model.MatrixResponse;
 
 public interface IMatrixService {
-	public List<List<Integer>> rotateNinetyDegrees(List<List<Integer>> matrix);
+	public MatrixResponse rotateNinetyDegrees(MatrixRequest matrix);
 }
